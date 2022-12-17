@@ -9,13 +9,13 @@ async def send_message(message, user_message, is_private):
         intents = discord.Intents.default()
         intents.message_content = True
         client = discord.Client(intents=intents)
-        response = response.handle_response(user_message)
+        response = responses.handle_response(user_message)
         await message.author.send(response) if is_private else await message.channel.send(response)
     except Exception as e:
         print(e)    
 
 def run_discord_bot():
-    TOKEN = 'token'
+    TOKEN = 'MTA1MzU0NTA4NTI5MzMxODIzNg.GsiwEg.wy-8wmnewrGdYV8fkJxpjcphOMSZw8_QSJzGPk'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
