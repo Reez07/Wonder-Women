@@ -10,7 +10,7 @@ import asyncio
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
-TOKEN ='MTA1MzU0NTA4NTI5MzMxODIzNg.GrCFGe.zDYLVfaW0kdakTnSE5T7vYe_WlV3Xto5y2B3SI'
+TOKEN =token'
 
 def get_question():
     qs = ''
@@ -58,7 +58,7 @@ async def send_message(message, user_message, is_private):
         print(e)    
 
 def run_discord_bot():
-    TOKEN = 'MTA1MzU0NTA4NTI5MzMxODIzNg.GrCFGe.zDYLVfaW0kdakTnSE5T7vYe_WlV3Xto5y2B3SI'
+    TOKEN = 'token'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
