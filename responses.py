@@ -6,7 +6,7 @@ def handle_response(message) -> str:
     if p_message == 'hello':
         return 'Hey there! Let\'s study!'
 
-    """if p_message == '!define Periodic Motion':
+    if p_message == '!define Periodic Motion':
         return 'Any motion which repeats itself at regular intervals of time.'
 
     if p_message == '!define Oscillatory motion':
@@ -20,4 +20,3 @@ def handle_response(message) -> str:
         
     if p_message == '!define Forced Harmonic Oscillation':
         return 'If an external force acts on a damped oscillatory system it is called a Forced Harmonic Oscillator. The oscillations produced, under the action of external periodic force on the body is called forced oscillations'           
-"""
