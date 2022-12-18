@@ -9,7 +9,7 @@ import asyncio
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
-TOKEN ='MTA1MzU0NTA4NTI5MzMxODIzNg.Guh29Q.ZBoXkQRtF5a02zBBVfXubXUQq9ppWths8ORE3I'
+TOKEN ='token'
 
 trigger_words = ["I'm bored", "!motivate-me"]
 inspiration = ["You can do it!","Don't give up!","Just keep going,Just keep going, Just keep,Just keep, Just keep going!🐟"," \“And, when you want something, all the universe conspires in helping you to achieve it.\”―Paulo Coelho", "The Alchemist \“Dreams don\'t work unless you do.\” ―John C. Maxwell", "\“Go the extra mile. It\'s never crowded there.\” ―Dr. Wayne D. Dyer","\“Keep your face always toward the sunshine―and shadows will fall behind you.\” ―Walt Whitman", "\“What defines us is how well we rise after falling.\” ―Lionel"]
@@ -76,7 +76,7 @@ async def send_message(message, user_message, is_private):
         print(e)    
 
 def run_discord_bot():
-    TOKEN = 'MTA1MzU0NTA4NTI5MzMxODIzNg.Guh29Q.ZBoXkQRtF5a02zBBVfXubXUQq9ppWths8ORE3I'
+    TOKEN = 'tokenI'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
